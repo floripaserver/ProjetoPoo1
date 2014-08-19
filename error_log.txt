@@ -1,0 +1,12 @@
+[19-Aug-2014 19:23:29 America/Sao_Paulo] PHP Notice:  Undefined variable: dados in /home/paulo/NetBeansProjects/Teste2/App/Contato/Controller/Publica/ContatoController.php on line 51
+[19-Aug-2014 19:23:29 America/Sao_Paulo] PHP Notice:  Undefined variable: Contato_statusEmail in /home/paulo/NetBeansProjects/Teste2/App/Contato/View/Publica/index.phtml on line 24
+[19-Aug-2014 19:23:29 America/Sao_Paulo] PHP Notice:  Undefined variable: nome in /home/paulo/NetBeansProjects/Teste2/App/Contato/View/Publica/index.phtml on line 31
+[19-Aug-2014 19:23:29 America/Sao_Paulo] PHP Notice:  Undefined variable: email in /home/paulo/NetBeansProjects/Teste2/App/Contato/View/Publica/index.phtml on line 35
+[19-Aug-2014 19:23:29 America/Sao_Paulo] PHP Notice:  Undefined variable: assunto in /home/paulo/NetBeansProjects/Teste2/App/Contato/View/Publica/index.phtml on line 39
+[19-Aug-2014 19:23:29 America/Sao_Paulo] PHP Notice:  Undefined variable: mensagem in /home/paulo/NetBeansProjects/Teste2/App/Contato/View/Publica/index.phtml on line 44
+[19-Aug-2014 19:23:30 America/Sao_Paulo] PHP Notice:  Undefined variable: dados in /home/paulo/NetBeansProjects/Teste2/App/Contato/Controller/Publica/ContatoController.php on line 51
+[19-Aug-2014 19:23:30 America/Sao_Paulo] PHP Notice:  Undefined variable: Contato_statusEmail in /home/paulo/NetBeansProjects/Teste2/App/Contato/View/Publica/index.phtml on line 24
+[19-Aug-2014 19:23:30 America/Sao_Paulo] PHP Notice:  Undefined variable: nome in /home/paulo/NetBeansProjects/Teste2/App/Contato/View/Publica/index.phtml on line 31
+[19-Aug-2014 19:23:30 America/Sao_Paulo] PHP Notice:  Undefined variable: email in /home/paulo/NetBeansProjects/Teste2/App/Contato/View/Publica/index.phtml on line 35
+[19-Aug-2014 19:23:30 America/Sao_Paulo] PHP Notice:  Undefined variable: assunto in /home/paulo/NetBeansProjects/Teste2/App/Contato/View/Publica/index.phtml on line 39
+[19-Aug-2014 19:23:30 America/Sao_Paulo] PHP Notice:  Undefined variable: mensagem in /home/paulo/NetBeansProjects/Teste2/App/Contato/View/Publica/index.phtml on line 44

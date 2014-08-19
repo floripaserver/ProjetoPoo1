@@ -1,0 +1,28 @@
+{
+    "name": "organizations/SoftEmp",
+    "description": "Software para gerenciamento.",
+    "keywords": ["database", "singleton", "pdo", "mysql", "postgresql", "sqlite", "mariadb", "oracle"],
+    "homepage": "https://github.com/SoftEmp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paulo Roberto da silva",
+            "email": "paulo@floripaserver.com",
+            "homepage": "http://softemp.com.br",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require": {
+        "phpmailer": "https://github.com/Synchro/PHPMailer.git"
+    },
+    "autoload": {
+        "psr-0": {
+            "Core\\": "src/",
+            "Contato\\": "src/",
+            "Cliente\\": "src/"
+        }
+    }
+}

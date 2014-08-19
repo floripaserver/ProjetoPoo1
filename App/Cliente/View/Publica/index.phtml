@@ -1,0 +1,56 @@
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="conteudo">
+            <div class="row">
+                <form action="" method="post">
+                    <div class="col-md-6"><button class="btn" type="submit" name="order" value="<?php echo $Cliente_order; ?>">Clientes</button></div>
+                    <div class="col-md-6"><?php //echo 'teste '.$Cliente_order;     ?></div>
+                    <div class="col-md-6"><?php //echo $Cliente_navegacao;     ?></div>
+                    <div class="accordion" id="accordion2">
+                        <?php
+                        foreach ($Cliente_dadosPessoais as $key => $value) {
+
+                            echo
+                            "<div class=\"accordion-group\">
+                        <div class=\"accordion-heading\">
+                            <a class=\"accordion-toggle\" data-toggle=\"collapse\" data-parent=\"#accordion2\" href=\"#collapse{$value['id']}\">
+                        {$value['nome']}
+                            </a>
+                        </div>
+                        <div id=\"collapse{$value['id']}\" class=\"accordion-body collapse\">
+                            <div class=\"accordion-inner\">
+                                CPF: {$value['cpf']},<br>"
+                            . "RG: {$value['rg']},<br>"
+                            . " Email: {$value['email']}<br>";
+                            foreach ($Cliente_dadosEndereco as $key => $value1) {
+                                
+                                if (@$value1[0]['pessoa_id'] == $value['id']) {
+                                    $end = $value1[0];
+                                }
+                            }
+                            if (@$end) {
+                                echo "<b>Endereço:</b><br>"
+                                . "Rua: {$end['rua']}<br>"
+                                . "Numero: {$end['numero']}<br>"
+                                . "Bairro: {$end['bairro']}<br>"
+                                . "Cidade: {$end['cidade']}<br>"
+                                . "Estado: {$end['estado']}<br>"
+                                . "País: {$end['pais']}";
+                            } else {
+                                echo "<b>Endereço não cadastrado</b><br>";
+                            }
+                            echo "</div>
+                        </div>
+                    </div>";
+                            //echo $value[0]['id'];
+                            // print_r($value[0]);
+                        }
+                        ?>
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
